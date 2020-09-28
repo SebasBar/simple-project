@@ -1,3 +1,14 @@
 body {
-    background-color: lightblue;
+    background-color: lightcyan;
+    text-align: center;
   }
+.bloc-container{
+    grid-template-columns: repeat(auto-fill, 100px);
+    grid-gap: 20px;
+}
+
+.bloc{
+    padding: 5em;
+    background-color: lightseagreen;
+    border: 2px solid darkgreen;
+}
